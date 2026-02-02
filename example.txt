@@ -1,0 +1,16 @@
+This is an example text file for the readme-mcp project.
+
+The readme-mcp is a Model Context Protocol (MCP) server that provides tools for reading files, specifically designed to read AGENTS.md files from project roots.
+
+Features:
+- Reads files from the working directory
+- Supports multiple ways to specify the working directory
+- Provides error handling for file operations
+- Uses TypeScript for type safety
+
+Usage:
+- The server can be started with: npm start
+- It reads files relative to the working directory
+- The main tool is "readme" which reads AGENTS.md
+
+This example file demonstrates that the MCP server can read various text files, not just AGENTS.md files.
